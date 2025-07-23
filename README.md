@@ -2,12 +2,71 @@ EXPERIMENT-1:- Aim: Hello World & Calculator Program.
 
 Apparatus: VS Code or Programiz online compiler
 
-Theory: -->Program1: This program demonstrates the basic structure of a C++ program and the use of the cout statement to display output on the screen.In this program, the #include preprocessor directive is used to include the standard input-output stream library which allows us to use cout and cin. The main() function is the entry point of every C++ program. Inside main(), the cout statement is used to print "Hello World" on the screen. The statement return 0; indicates that the program has ended successfully. This program helps beginners understand how to write, compile, and run a simple C++ program and how to display a message using cout.
+Theory: 
+This experiment introduces the fundamental concepts of C++ programming through two simple programs:
+"Hello World" and a basic calculator.
+It covers the basic structure and syntax of a C++ program, including:
+#include <iostream> – to access standard input/output functions.
+main() function – the starting point of every C++ program.
+Use of cout to print messages on the screen.
+Use of cin to accept input from the user.
 
--->Program2:This program accepts two floating-point numbers as input from the user and performs four basic arithmetic operations: addition, subtraction, multiplication, and division. First, two float variables num1 and num2 are declared to store user inputs. The cin statement is used to take input from the user. Then, the following operations are performed:
+Demonstrates how to declare variables using appropriate data types:
+float is used for decimal precision in arithmetic operations.
+The calculator program performs the four basic arithmetic operations:
+Addition (+)
+Subtraction (-)
+Multiplication (*)
+Division (/)
 
-Addition: The two numbers are added and the result is stored in sum. Subtraction: The second number is subtracted from the first and stored in sub. Multiplication: Both numbers are multiplied and the result is stored in multi. Division: The first number is divided by the second number and the result is stored in div.
+Helps understand the use of:
+Arithmetic operators
+User input/output
+Variable storage and data flow
 
-The results of each operation are displayed using cout. The use of the float data type ensures that decimal values are preserved in all calculations. This program helps to understand how to perform arithmetic operations in C++ and how to handle user input and output. It also demonstrates the importance of using appropriate data types to avoid loss of precision in calculations.
+Provides hands-on experience with:
+Writing, compiling, and executing a C++ program
+Displaying results clearly using formatted output
+These programs lay a strong foundation for further topics like:
+Conditional statements, loops, and functions
+Problem-solving using logic in C++
+
+-->Program1: 
+1)This program introduces the basic structure of a C++ program.
+
+2)The line #include <iostream> includes the input-output stream library, allowing the use of cout and cin.
+
+3)The function main() is the starting point of execution in every C++ program.
+
+4)The statement cout << "Hello World"; is used to display output on the screen.
+
+5)cout sends the given message to the console (standard output).
+
+6)return 0; signals that the program has ended successfully.
+
+-->Program2:
+
+1)This program accepts two floating-point numbers from the user as input.
+
+2)Two variables, num1 and num2, of type float are declared to store the inputs.
+
+3)The cin statement is used to take input from the user via the keyboard.
+
+4)The program performs four basic arithmetic operations:
+
+a)Addition: num1 + num2 → stored in sum
+b)Subtraction: num1 - num2 → stored in sub
+c)Multiplication: num1 * num2 → stored in multi
+d)Division: num1 / num2 → stored in div
+
+5)Each result is displayed using the cout statement for output on the screen.
+
+6)Using the float data type ensures decimal values are preserved in all calculations.
+
+7)This program helps understand:
+->How to declare and use variables
+->How to take input/output using cin and cout
+->How to perform arithmetic operations in C++
+->The importance of choosing correct data types to maintain precision
 
 Conclusion: Hence, we were able to print hello world and build a basic calculator in C++.
